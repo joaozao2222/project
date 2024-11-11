@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mb-[20%]">
       {/* Título */}
       <h1 className="text-[5em] mt-[10%]">VOCE</h1>
 

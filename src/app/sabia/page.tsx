@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Sabia() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mb-[40%]">
       {/* Título */}
       <h1 className="text-[4em] mt-[5%]">SABIA QUE...</h1>
 

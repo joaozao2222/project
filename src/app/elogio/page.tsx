@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Elogio() {
   return (
-    <div className="flex flex-col items-center justify-center mt-[14%]">
+    <div className="flex flex-col items-center justify-center mt-[14%] mb-[60%]">
       {/* Imagem do Emoji Amarelo */}
       <div className="w-full flex justify-end mt-[2%]">
         <Image
