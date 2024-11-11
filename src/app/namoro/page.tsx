@@ -15,7 +15,7 @@ export default function Namoro() {
     };
 
     return (
-        <div className="relative flex flex-col items-center justify-center mt-[30%]">
+        <div className="relative flex flex-col items-center justify-center mt-[20%]">
             <h1 className="text-[5em] mb-[5%]">VAMO CASAR?</h1>
             <div className="flex items-center justify-center">
                 <div className="relative flex items-center">
@@ -34,7 +34,7 @@ export default function Namoro() {
                             top: `${posicao.top}%`,
                             left: `${posicao.left}%`,
                         }}
-                        className="bg-purple-950 w-[12em] h-[6em] hover:bg-purple-800 rounded text-[1.5em] ml-[20em]"
+                        className="bg-purple-950 w-[12em] h-[6em] hover:bg-purple-800 rounded text-[1.5em] ml-[15em]"
                     >
                         Não
                     </button>
