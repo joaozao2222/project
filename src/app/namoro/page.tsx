@@ -18,7 +18,7 @@ export default function Namoro() {
         <div className="relative flex flex-col items-center justify-center mt-[20%]">
             <h1 className="text-[5em] mb-[5%]">VAMO CASAR?</h1>
             <div className="flex items-center justify-center">
-                <div className="relative flex items-center">
+                <div className="relative flex items-center justify-center ml-[7em]">
                     {/* Botão "Sim" transformado em link */}
                     <Link href="/elogio"> {/* Defina o caminho para onde o link deve redirecionar */}
                         <a className="bg-purple-950 w-[12em] h-[6em] hover:bg-purple-800 rounded text-[1.5em] mr-[20em] flex items-center justify-center">
