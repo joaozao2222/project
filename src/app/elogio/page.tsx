@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 export default function Elogio() {
   return (
-    <div className="flex flex-col items-center justify-center ">
+    <div className="flex flex-col items-center justify-center mt-[14%]">
       {/* Imagem do Emoji Amarelo */}
-      <div className="w-full flex justify-end mt-[1%]">
+      <div className="w-full flex justify-end mt-[2%]">
         <Image
           src="/emoji-amarelo.png"
           alt="Emoji Amarelo"
@@ -32,11 +32,13 @@ export default function Elogio() {
       </div>
 
       {/* Botão Próxima */}
+      <div className="mb-[10%]">
       <Link href="/namoro">
         <button className="bg-purple-950 w-[12em] h-[6em] hover:bg-purple-800 pb-[5%] rounded text-[1.5em]">
           Proxima
         </button>
       </Link>
+      </div>
     </div>
   );
 }

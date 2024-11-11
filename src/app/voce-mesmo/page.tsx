@@ -10,7 +10,7 @@ export default function VoceMesmo() {
       <h1 className="text-[4em] mt-[10%]">ISSO, VOCE MESMO</h1>
 
       {/* Imagem */}
-      <div className="mt-[10%]">
+      <div className="mt-[4%]">
         <Image
           src="/dedo.png"
           alt="Imagem de Dedo Apontando"

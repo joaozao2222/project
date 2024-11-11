@@ -10,7 +10,7 @@ export default function Home() {
       <h1 className="text-[5em] mt-[10%]">VOCE</h1>
 
       {/* Imagem */}
-      <div className="mt-[10%]">
+      <div className="mt-[4%]">
         <Image
           src="/apontando.png"
           alt="Imagem de Dedo Apontando"
@@ -23,7 +23,7 @@ export default function Home() {
 
       {/* Botão Próxima */}
       <Link href="/voce-mesmo">
-        <button className="bg-purple-950 w-[12em] h-[6em] hover:bg-purple-800 rounded mt-[20%] text-[1.5em]">
+        <button className="bg-purple-950 w-[12em] h-[6em] hover:bg-purple-800 rounded mt-[20%] mb-[10%] text-[1.5em]">
           Proxima
         </button>
       </Link>

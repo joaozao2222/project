@@ -7,10 +7,10 @@ export default function Sabia() {
   return (
     <div className="flex flex-col items-center justify-center">
       {/* Título */}
-      <h1 className="text-[4em] mt-[10%]">SABIA QUE...</h1>
+      <h1 className="text-[4em] mt-[5%]">SABIA QUE...</h1>
 
       {/* Imagem */}
-      <div className="mt-[10%]">
+      <div className="mt-[4%]">
         <Image
           src="/pensando.png"
           alt="Imagem de Pessoa Pensando"
